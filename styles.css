@@ -1,0 +1,86 @@
+/* Base styles */
+body {
+    font-family:  Arial, sans-serif;
+    background-color: #9AEBA3; 
+    color: #012030; 
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #13678A; 
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #DAFDBA; 
+    margin-right: 10px;
+}
+
+h1, h2 {
+    color: #012030; 
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+/* Image styles */
+img {
+    width: 500px;
+    border: 1px solid #012030; 
+    padding: 5px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.movie-item {
+    width: 32%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-poster {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#home-page {
+    text-align: center;
+}
+
+/* Genre-specific color themes */
+#action-page {
+    background-color: #DAFDBA;  
+}
+
+#family-page {
+    background-color: #45C4B0; 
+}
+
+#documentaries-page {
+    background-color: #9AEBA3; 
+}
+
+#sci-fi-page {
+    background-color: #45C4B0; 
+    color: #13678A; 
+}
+
+#animation-page {
+    background-color: #DAFDBA; 
+}
+
+
+
